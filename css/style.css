@@ -1,12 +1,13 @@
 body {font-family: 'roboto', sans-serif;
-font-weight: 400, 500, 700; color: black; font-size: 16px;}
+font-weight: 400, 500, 700; color: #434455; font-size: 16px;}
 .hero {background-color: #2E2F42;
 height: 600px;}
 h1 {color: #fff; font-size: 56px; text-align: center; line-height: 60px;}
 h3 {font-size: 20px;}
+h2 {font-size: 36px; text-align: center;}
 .page-nav .link {color: #434455;}
 .page-nav .link:hover {color: red;}
-.mail, .tel {color: #434455;}
+.mail, .tel {color: #434455; line-height: 1.5;}
 .mail:hover, .tel:hover {color: red;}
 .person {color: #434455;}
 .person:hover {color: red;}
@@ -14,5 +15,9 @@ h3 {font-size: 20px;}
 .button {font-size: 16px; color: #434455; cursor: pointer;}
 .button:hover {color: red;}
 .button:focus {color: blue;}
-
+.team {background-color: #F4F4FD; }
+footer {background-color: #2E2F42;}
+.footer-text {color: #F4F4FD;}
+.logo {color: #4D5AE5;}
+.logo-a {color: #F4F4FD;}
 
