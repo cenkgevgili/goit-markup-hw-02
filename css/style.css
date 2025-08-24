@@ -27,6 +27,7 @@ h2 {
 }
 .page-nav .link {
   color: #434455;
+  text-decoration: none;
 }
 .page-nav .link:hover {
   color: #404bbf;
@@ -35,6 +36,7 @@ h2 {
 .tel {
   color: #434455;
   line-height: 1.5;
+  text-decoration: none;
 }
 .mail:hover,
 .tel:hover {
@@ -52,10 +54,10 @@ h2 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .button:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .team {
   background-color: #f4f4fd;
@@ -73,13 +75,22 @@ footer {
 .logo-a {
   color: #f4f4fd;
   text-decoration: none;
+  font-size: 18px;
+  line-height: 1.16;
+  font-family: Raleway;
+  font-weight: 700;
 }
 .logo-h {
   color: #2e2f42;
   text-decoration: none;
+  font-size: 18px;
+  line-height: 1.16;
+  font-family: Raleway;
+  font-weight: 700;
 }
 .values-list,
 .team-list,
-.portfolio-list {
+.portfolio-list,
+.page-nav {
   list-style: none;
 }
